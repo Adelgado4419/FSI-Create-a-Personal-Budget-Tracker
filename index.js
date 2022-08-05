@@ -6,7 +6,8 @@ window.prompt(weeklyExpenseQuestions[0])
 let answer = window.prompt(weeklyExpenseQuestions[0])
 console.log(answer)
 
-let answer = parseFloat(window.prompt(weeklyExpenseQuestions[0]))
+answer = parseFloat(window.prompt(weeklyExpenseQuestions[0]))
 console.log(answer)
+weeklyExpenses = weeklyExpenses + answer
 
 // Your Code Here
